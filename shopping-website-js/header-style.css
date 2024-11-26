@@ -1,4 +1,4 @@
-.navbar{z-index: 1;}
+.navbar{z-index: 1;box-shadow: 0 0 5px 2px #d7d7d7;}
 .navbar-brand{font-style: italic;}
 .btn-cart{height: 100%;position: relative;}
 .fa-cart-shopping{font-size: 25px;}

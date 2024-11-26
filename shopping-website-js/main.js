@@ -29,7 +29,7 @@ function toggleCart(params) {
 async function fetchProducts() {
   try {
     const response = await fetch("https://fakestoreapi.com/products");
-    // const response = await fetch("/shopping-website-js/products/products.js");
+    // const response = await fetch("/products/products.js");
     const data = await response.json();
     // Assign the fetched data to the global constant variable
     productList.push(...data); // Adding data to productList
