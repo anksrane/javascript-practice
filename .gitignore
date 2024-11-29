@@ -7,3 +7,5 @@ node_modules/
 # Ignore all files in the temp directory
 attendance/
 attendance-2/
+dowloaded/
+custom-slider-swiper/
