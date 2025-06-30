@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Excel File Upload (User-Friendly)</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .excel-upload-btn {
+      cursor: pointer;
+    }
+    .file-entry {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 10px;
+      background: #f8f9fa;
+      padding: 8px 12px;
+      border-radius: 5px;
+    }
+    .file-name {
+      font-weight: 500;
+    }
+    .excel-icon {
+      width: 24px;
+      margin-right: 8px;
+    }
+  </style>
+</head>
+<body class="p-4">
+
+  <div class="container">
+    <h3 class="mb-3">Upload Excel Files (Max 5)</h3>
+
+    <p class="text-muted">You can upload up to <strong>5 Excel files</strong>. Only <code>.xls</code> and <code>.xlsx</code> formats are allowed.</p>
+
+    <!-- Upload button -->
+    <div id="uploadButtonWrapper" class="mb-3">
+      <label class="btn btn-success excel-upload-btn d-flex align-items-center">
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732220.png" class="excel-icon" alt="Excel Icon">
+        <span>Upload Excel File</span>
+        <input type="file" id="excelUploader" accept=".xls,.xlsx" class="d-none">
+      </label>
+    </div>
+
+    <!-- Uploaded files list -->
+    <div id="fileList"></div>
+
+    <noscript>
+      <div class="alert alert-danger mt-3">This uploader requires JavaScript to work properly. Please enable JavaScript in your browser.</div>
+    </noscript>
+  </div>
+
+  <!-- Bootstrap JS for tooltip support -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    const excelUploader = document.getElementById('excelUploader');
+    const fileList = document.getElementById('fileList');
+    const uploadButtonWrapper = document.getElementById('uploadButtonWrapper');
+
+    let uploadedFiles = [];
+    let activeTooltips = [];
+
+    function renderFiles() {
+        fileList.innerHTML = '';
+
+        uploadedFiles.forEach((file, index) => {
+            const isLastFile = index === uploadedFiles.length - 1;
+            const fileEntry = document.createElement('div');
+            fileEntry.className = 'file-entry';
+
+            fileEntry.innerHTML = `
+            <span class="file-name">${file.name}</span>
+            <div>
+                <button class="btn btn-sm btn-danger me-2" data-bs-toggle="tooltip" title="Delete this file" onclick="deleteFile(${index})">Delete</button>
+                ${isLastFile && uploadedFiles.length < 5 
+                ? '<button class="btn btn-sm btn-primary" onclick="triggerUploader()" data-bs-toggle="tooltip" title="Upload another file after this">Add More</button>'
+                : ''
+                }
+            </div>
+            `;
+
+            fileList.appendChild(fileEntry);
+        });
+
+        // Show success message only when a file is added
+        if (uploadedFiles.length > 0 && uploadedFiles.length <= 5) {
+            const alert = document.createElement('div');
+            alert.className = 'alert alert-success mt-3';
+            alert.textContent = 'File uploaded successfully!';
+            fileList.appendChild(alert);
+            setTimeout(() => alert.remove(), 2000);
+        }
+
+        // Warning if limit reached
+        if (uploadedFiles.length >= 5) {
+            const maxAlert = document.createElement('div');
+            maxAlert.className = 'alert alert-warning mt-2';
+            maxAlert.textContent = 'You have reached the maximum limit of 5 files.';
+            fileList.appendChild(maxAlert);
+        }
+
+        // Show "Upload File" button only when no files are uploaded
+        uploadButtonWrapper.style.display = uploadedFiles.length === 0 ? 'block' : 'none';
+
+        // Destroy existing tooltips
+        activeTooltips.forEach(t => t.dispose());
+        activeTooltips = [];
+
+        // Reinitialize tooltips and auto-remove on click
+        const tooltips = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+        tooltips.forEach(el => {
+            const tooltip = new bootstrap.Tooltip(el);
+            activeTooltips.push(tooltip);
+
+            el.addEventListener('click', () => tooltip.dispose());
+        });
+    }
+
+
+    function triggerUploader() {
+      excelUploader.click();
+    }
+
+    excelUploader.addEventListener('change', (event) => {
+      const file = event.target.files[0];
+
+      if (file && uploadedFiles.length < 5) {
+        const allowedTypes = [
+          'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+          'application/vnd.ms-excel'
+        ];
+
+        if (!allowedTypes.includes(file.type)) {
+          alert('Invalid file type. Please upload a valid Excel file (.xls or .xlsx).');
+          return;
+        }
+
+        uploadedFiles.push(file);
+        renderFiles();
+      }
+
+      excelUploader.value = ''; // reset so same file can be re-selected
+    });
+
+    function deleteFile(index) {
+      const confirmDelete = confirm(`Are you sure you want to delete "${uploadedFiles[index].name}"?`);
+      if (!confirmDelete) return;
+
+      uploadedFiles.splice(index, 1);
+      renderFiles();
+    }
+
+    renderFiles();
+  </script>
+</body>
+</html>
