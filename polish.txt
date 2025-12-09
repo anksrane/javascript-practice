@@ -1,0 +1,140 @@
+{
+  "Polish": [
+    {
+      "folderName": "ALBA BEIGE",
+      "imagesUrl": "https://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/ALBA%20BEIGE/ALBA%20BEIGE%20%2060x60%20POLISH_%2020_11_23%20_F1.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/ALBA%20BEIGE/ALBA%20BEIGE%20%2060x60%20POLISH_20_11_23%20_F3.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/ALBA%20BEIGE/ALBA%20BEIGE%20%2060x60%20POLISH_20_11_23%20_F4.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/ALBA%20BEIGE/ALBA%20BEIGE%20%2060x60%20POLISH_20_11_23_F2.jpg"
+    },
+    {
+      "folderName": "AZURO CREAMA",
+      "imagesUrl": "https://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/AZURO%20CREAMA/AZURO%20CREAMA%20OK%2015_9_23_F1.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/AZURO%20CREAMA/AZURO%20CREAMA%20OK%2015_9_23_F2.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/AZURO%20CREAMA/AZURO%20CREAMA%20OK%2015_9_23_F3.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/AZURO%20CREAMA/AZURO%20CREAMA%20OK%2015_9_23_F4.jpg"
+    },
+    {
+      "folderName": "BASALTO BIANCO",
+      "imagesUrl": "https://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/BASALTO%20BIANCO/BASALTO%20BIANCO%20OK_19_11_23.jpg"
+    },
+    {
+      "folderName": "BELLEZA BEIGE",
+      "imagesUrl": "https://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/BELLEZA%20BEIGE/BELLEZA%20BEIGE%20POLISH%20OK%2019_11_23_F1.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/BELLEZA%20BEIGE/BELLEZA%20BEIGE%20POLISH%20OK%2019_11_23_F2.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/BELLEZA%20BEIGE/BELLEZA%20BEIGE%20POLISH%20OK%2019_11_23_F3.jpg"
+    },
+    {
+      "folderName": "BELLEZA BLACK",
+      "imagesUrl": "https://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/BELLEZA%20BLACK/BELLEZA%20BLACK%20POLISH%20OK%2020_11_23_F1.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/BELLEZA%20BLACK/BELLEZA%20BLACK%20POLISH%20OK%2020_11_23_F2.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/BELLEZA%20BLACK/BELLEZA%20BLACK%20POLISH%20OK%2020_11_23_F3.jpg"
+    },
+    {
+      "folderName": "BELLEZA BRONCEAR",
+      "imagesUrl": "https://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/BELLEZA%20BRONCEAR/BELLEZA%20BRONCEAR_1_4_23_F1.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/BELLEZA%20BRONCEAR/BELLEZA%20BRONCEAR_1_4_23_F2.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/BELLEZA%20BRONCEAR/BELLEZA%20BRONCEAR_1_4_23_F3.jpg"
+    },
+    {
+      "folderName": "BELLEZA BRONCEAR LEVE",
+      "imagesUrl": "https://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/BELLEZA%20BRONCEAR%20LEVE/BELLEZA%20BRONCEAR%20LEVE%2021_11_23_F1.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/BELLEZA%20BRONCEAR%20LEVE/BELLEZA%20BRONCEAR%20LEVE%2021_11_23_F2.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/BELLEZA%20BRONCEAR%20LEVE/BELLEZA%20BRONCEAR%20LEVE%2021_11_23_F3.jpg"
+    },
+    {
+      "folderName": "BELLEZA GREY",
+      "imagesUrl": "https://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/BELLEZA%20GREY/BELLEZA%20GREY%20POLISH%20OK%2031_10_23_F1.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/BELLEZA%20GREY/BELLEZA%20GREY%20POLISH%20OK%2031_10_23_F2.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/BELLEZA%20GREY/BELLEZA%20GREY%20POLISH%20OK%2031_10_23_F3.jpg"
+    },
+    {
+      "folderName": "BRECCIA BEIGE",
+      "imagesUrl": "https://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/BRECCIA%20BEIGE/BRECCIA%20BEIGE%20OK%2020_11_23%20_F2.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/BRECCIA%20BEIGE/BRECCIA%20BEIGE%20OK%2020_11_23%20_F3.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/BRECCIA%20BEIGE/BRECCIA%20BEIGE%20OK%2020_11_23_F1.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/BRECCIA%20BEIGE/BRECCIA%20BEIGE%20OK%2020_11_23_F4.jpg"
+    },
+    {
+      "folderName": "CLARO BEIGE",
+      "imagesUrl": "https://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/CLARO%20BEIGE/CLARO%20BEIGE_OK_27_07_23.jpg"
+    },
+    {
+      "folderName": "CLARO GRIS",
+      "imagesUrl": "https://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/CLARO%20GRIS/CLARO%20GRIS%2060x60%20OK%2020_11_23_F1.jpg"
+    },
+    {
+      "folderName": "COVEY TAUPE",
+      "imagesUrl": "https://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/COVEY%20TAUPE/COVEY%20TAUPE%20POLISH%20OK%2025_7_23_F1.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/COVEY%20TAUPE/COVEY%20TAUPE%20POLISH%20OK%2025_7_23_F2.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/COVEY%20TAUPE/COVEY%20TAUPE%20POLISH%20OK%2025_7_23_F3.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/COVEY%20TAUPE/COVEY%20TAUPE%20POLISH%20OK%2025_7_23_F4.jpg"
+    },
+    {
+      "folderName": "DUNE BEIGE",
+      "imagesUrl": "https://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/DUNE%20BEIGE/DUNE%20BEIGE%20OK%2015_9_23_F1.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/DUNE%20BEIGE/DUNE%20BEIGE%20OK%2015_9_23_F2.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/DUNE%20BEIGE/DUNE%20BEIGE%20OK%2015_9_23_F3.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/DUNE%20BEIGE/DUNE%20BEIGE%20OK%2015_9_23_F4.jpg"
+    },
+    {
+      "folderName": "DUNE BIANCO",
+      "imagesUrl": "https://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/DUNE%20BIANCO/DUNE%20BIANCO%20OK%2031_10_23_F1.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/DUNE%20BIANCO/DUNE%20BIANCO%20OK%2031_10_23_F2.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/DUNE%20BIANCO/DUNE%20BIANCO%20OK%2031_10_23_F3.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/DUNE%20BIANCO/DUNE%20BIANCO%20OK%2031_10_23_F4.jpg"
+    },
+    {
+      "folderName": "DUNE COTTO",
+      "imagesUrl": "https://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/DUNE%20COTTO/DUNE%20COTTO%20POLISH%20OK%2025_7_23.jpg"
+    },
+    {
+      "folderName": "DUNE MOKA",
+      "imagesUrl": "https://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/DUNE%20MOKA/DUNE%20MOKA%20OK%2016_11_23_F1.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/DUNE%20MOKA/DUNE%20MOKA%20OK%2016_11_23_F2.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/DUNE%20MOKA/DUNE%20MOKA%20OK%2016_11_23_F3.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/DUNE%20MOKA/DUNE%20MOKA%20OK%2016_11_23_F4.jpg"
+    },
+    {
+      "folderName": "DYNAMO AZUL",
+      "imagesUrl": "https://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/DYNAMO%20AZUL/DYNAMO%20AZUL%20OK%2031_10_23_F1.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/DYNAMO%20AZUL/DYNAMO%20AZUL%20OK%2031_10_23_F2.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/DYNAMO%20AZUL/DYNAMO%20AZUL%20OK%2031_10_23_F3.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/DYNAMO%20AZUL/DYNAMO%20AZUL%20OK%2031_10_23_F4.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/DYNAMO%20AZUL/DYNAMO%20AZUL%20OK%2031_10_23_F5.jpg"
+    },
+    {
+      "folderName": "ESSENCE CREAMA",
+      "imagesUrl": "https://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/ESSENCE%20CREAMA/ESSENCE%20CREAMA%20MATT%20OK%2020_9_23_F1%20.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/ESSENCE%20CREAMA/ESSENCE%20CREAMA%20MATT%20OK%2020_9_23_F2.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/ESSENCE%20CREAMA/ESSENCE%20CREAMA%20MATT%20OK%2020_9_23_F3.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/ESSENCE%20CREAMA/ESSENCE%20CREAMA%20MATT%20OK%2020_9_23_F4.jpg"
+    },
+    {
+      "folderName": "GOLDEN PEARL LT",
+      "imagesUrl": "https://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/GOLDEN%20PEARL%20LT/GOLDEN%20PEARL%20LT%2060X60%20OK%2031_10_23_F1%20.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/GOLDEN%20PEARL%20LT/GOLDEN%20PEARL%20LT%2060X60%20OK%2031_10_23_F2.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/GOLDEN%20PEARL%20LT/GOLDEN%20PEARL%20LT%2060X60%20OK%2031_10_23_F3.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/GOLDEN%20PEARL%20LT/GOLDEN%20PEARL%20LT%2060X60%20OK%2031_10_23_F4.jpg"
+    },
+    {
+      "folderName": "MESA TRAVERTINO",
+      "imagesUrl": "https://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/MESA%20TRAVERTINO/MESA%20TRAVERTINO%20OK%2021_11_23.jpg"
+    },
+    {
+      "folderName": "MICHIGAN GRIS DK",
+      "imagesUrl": "https://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/MICHIGAN%20GRIS%20DK/MICHIGAN%20GRIS%20DK%20MATT%20OK%204_11_23_F1.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/MICHIGAN%20GRIS%20DK/MICHIGAN%20GRIS%20DK%20MATT%20OK%204_11_23_F2.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/MICHIGAN%20GRIS%20DK/MICHIGAN%20GRIS%20DK%20MATT%20OK%204_11_23_F3.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/MICHIGAN%20GRIS%20DK/MICHIGAN%20GRIS%20DK%20MATT%20OK%204_11_23_F4.jpg"
+    },
+    {
+      "folderName": "MICHIGAN GRIS LT",
+      "imagesUrl": "https://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/MICHIGAN%20GRIS%20LT/MICHIGAN%20GRIS%20LT%20POLISH%20OK%2028_10_23_F1.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/MICHIGAN%20GRIS%20LT/MICHIGAN%20GRIS%20LT%20POLISH%20OK%2028_10_23_F2.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/MICHIGAN%20GRIS%20LT/MICHIGAN%20GRIS%20LT%20POLISH%20OK%2028_10_23_F3.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/MICHIGAN%20GRIS%20LT/MICHIGAN%20GRIS%20LT%20POLISH%20OK%2028_10_23_F4.jpg"
+    },
+    {
+      "folderName": "NOCHE BROWN",
+      "imagesUrl": "https://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/NOCHE%20BROWN/NOCHE%20BROWN%20POLISH%20OK%2015_9_23.jpg"
+    },
+    {
+      "folderName": "NOCHE CREAM",
+      "imagesUrl": "https://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/NOCHE%20CREAM/NOCHE%20CREAM%20OK%20NEW%2030_10_23.jpg"
+    },
+    {
+      "folderName": "nube sataturio",
+      "imagesUrl": "https://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/nube%20sataturio/nube%20sataturio%20r2.jpeg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/nube%20sataturio/nube%20sataturio.jpeg"
+    },
+    {
+      "folderName": "PALE AZUL",
+      "imagesUrl": "https://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/PALE%20AZUL/PALE%20AZUL%20OK%20NEW%2024_08_23.jpg"
+    },
+    {
+      "folderName": "PALE GRIS",
+      "imagesUrl": "https://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/PALE%20GRIS/PALE%20GRIS%20OK%2002_09_22.jpg"
+    },
+    {
+      "folderName": "Ricco",
+      "imagesUrl": "https://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/Ricco/Ricco.jpg"
+    },
+    {
+      "folderName": "RIOHA STATUARIO",
+      "imagesUrl": "https://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/RIOHA%20STATUARIO/RIOHA%20STATUARIO%20OK_29_10_23_F1.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/RIOHA%20STATUARIO/RIOHA%20STATUARIO%20OK_29_10_23_F2.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/RIOHA%20STATUARIO/RIOHA%20STATUARIO%20OK_29_10_23_F3.jpg"
+    },
+    {
+      "folderName": "RIPPLE BOTTICHINO",
+      "imagesUrl": "https://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/RIPPLE%20BOTTICHINO/RIPPLE%20BOTTICHINO%20OK%2021_7_23%20_F1.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/RIPPLE%20BOTTICHINO/RIPPLE%20BOTTICHINO%20OK%2021_7_23_F2.jpg"
+    },
+    {
+      "folderName": "SOIR BIANCO",
+      "imagesUrl": "https://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/SOIR%20BIANCO/SOIR%20BIANCO%2060X60%20OK%2019_11_23_F1.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/SOIR%20BIANCO/SOIR%20BIANCO%2060X60%20OK%2019_11_23_F2.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/SOIR%20BIANCO/SOIR%20BIANCO%2060X60%20OK%2019_11_23_F3.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/SOIR%20BIANCO/SOIR%20BIANCO%2060X60%20OK%2019_11_23_F4.jpg"
+    },
+    {
+      "folderName": "SOIR GRIS",
+      "imagesUrl": "https://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/SOIR%20GRIS/SOIR%20GRIS%20OK%202_11_23_F1.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/SOIR%20GRIS/SOIR%20GRIS%20OK%202_11_23_F2.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/SOIR%20GRIS/SOIR%20GRIS%20OK%202_11_23_F3.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/SOIR%20GRIS/SOIR%20GRIS%20OK%202_11_23_F4.jpg"
+    },
+    {
+      "folderName": "TERRAZO TESLA BIANCO",
+      "imagesUrl": "https://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/TERRAZO%20TESLA%20BIANCO/TERRAZO%20TESLA%20BIANCO%20POLISH%20OK%2031_10_23.jpg"
+    },
+    {
+      "folderName": "THUNDER WHITE",
+      "imagesUrl": "https://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/THUNDER%20WHITE/THUNDER%20WH%2060x60%20OK%2031_10_23_F1.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/THUNDER%20WHITE/THUNDER%20WH%2060x60%20OK%2031_10_23_F2.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/THUNDER%20WHITE/THUNDER%20WH%2060x60%20OK%2031_10_23_F3.jpg, \nhttps://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Polish/THUNDER%20WHITE/THUNDER%20WH%2060x60%20OK%2031_10_23_F4.jpg"
+    }
+  ]
+}

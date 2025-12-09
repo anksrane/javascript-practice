@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Folder to JSON</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    textarea { width: 100%; height: 300px; white-space: pre; }
+  </style>
+</head>
+<body>
+
+<h2>Upload Main Folder</h2>
+<input type="file" id="folderInput" webkitdirectory directory multiple>
+<button id="processBtn">Generate JSON</button>
+
+<h3>Output:</h3>
+<textarea id="output" readonly></textarea>
+<script>
+document.getElementById('processBtn').addEventListener('click', () => {
+    const input = document.getElementById('folderInput');
+    const files = Array.from(input.files);
+
+    if (!files.length) {
+        alert("Please select a folder first!");
+        return;
+    }
+
+    const baseUrl = "<?php echo base_url();?>assets/frontend/images/CSR_Pictures_2024_25/";
+
+    // Detect main folder name
+    const firstPathParts = files[0].webkitRelativePath.split('/');
+    const mainFolderName = firstPathParts[0];
+
+    // Group by subfolder
+    const folderMap = {};
+    files.forEach(file => {
+        const pathParts = file.webkitRelativePath.split('/');
+        if (pathParts.length >= 3) {
+            const subFolder = pathParts[1];
+            const fileName = pathParts.slice(2).join('/'); // Handle nested files
+            if (!folderMap[subFolder]) folderMap[subFolder] = [];
+            folderMap[subFolder].push(baseUrl + `${subFolder}/${fileName}`.split('/').map(encodeURIComponent).join('/'));
+        }
+    });
+
+    // Sort folders alphabetically
+    const sortedFolders = Object.keys(folderMap).sort((a, b) => a.localeCompare(b));
+
+    // Build JSON output with array of URLs
+    const jsonOutput = {};
+    jsonOutput[mainFolderName] = sortedFolders.map(subFolder => ({
+        folderName: subFolder,
+        imagesUrl: folderMap[subFolder] // Array of URLs
+    }));
+
+    document.getElementById('output').value = JSON.stringify(jsonOutput, null, 2);
+});
+</script>
+
+
+<!-- <script>
+document.getElementById('processBtn').addEventListener('click', () => {
+    const input = document.getElementById('folderInput');
+    const files = Array.from(input.files);
+
+    if (!files.length) {
+        alert("Please select a folder first!");
+        return;
+    }
+
+    const baseUrl = "https://beta.rkswamy.com/vitero/wp-content/uploads/2025/08/600%20x%20600/Matt/";
+
+    // Detect main folder name
+    const firstPathParts = files[0].webkitRelativePath.split('/');
+    const mainFolderName = firstPathParts[0];
+
+    // Group by subfolder
+    const folderMap = {};
+    files.forEach(file => {
+        const pathParts = file.webkitRelativePath.split('/');
+        if (pathParts.length >= 3) {
+            const subFolder = pathParts[1];
+            const fileName = pathParts.slice(2).join('/'); // Handle nested files too
+            if (!folderMap[subFolder]) folderMap[subFolder] = [];
+            folderMap[subFolder].push(
+                baseUrl + `${subFolder}/${fileName}`.replace(/ /g, "%20")
+            );
+        }
+    });
+
+    // Sort folders alphabetically
+    const sortedFolders = Object.keys(folderMap).sort((a, b) => a.localeCompare(b));
+
+    // Build JSON output
+    const jsonOutput = {};
+    jsonOutput[mainFolderName] = sortedFolders.map(subFolder => {
+        const urls = folderMap[subFolder]
+            .map((url, idx, arr) => 
+                idx < arr.length - 1 ? url + ", " : url
+            )
+            .join("\n");
+        return {
+            folderName: subFolder, // Keep original name
+            imagesUrl: urls
+        };
+    });
+
+    document.getElementById('output').value = JSON.stringify(jsonOutput, null, 2);
+});
+
+</script> -->
+
+</body>
+</html>

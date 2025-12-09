@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Overlapping Circle Expand</title>
+
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      margin-top: 100px;
+      font-family: Arial, sans-serif;
+    }
+
+    .circle-wrap {
+      display: flex;
+      position: relative;
+    }
+
+    .circle {
+      /* width: fit-content;
+      height: fit-content;
+      border: 4px solid #444;
+      border-radius: 60px;
+      background: white;
+      margin-left: -25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      position: relative;
+      transition: all 0.35s ease;
+      overflow: hidden;
+      transition: all 0.35s ease 0s; */
+      display: flex;
+      align-items: center;
+      border: 4px solid #444;
+      border-radius: 60px;
+      background: white;
+      margin-left: -25px;
+      cursor: pointer;
+      overflow: hidden;
+
+      flex: 0 1 auto;             /* allow expanding by content */
+      flex-basis: 70px;           /* base size = image circle */
+      transition: flex-basis 0.35s ease, border-radius 0.35s ease;      
+    }
+
+    .circle:first-child {
+      margin-left: 0;
+    }
+
+    .circle img {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      transition: all 0.3s ease;
+      flex-shrink: 0;
+    }
+
+    .label {
+      /* max-width: 0;
+      opacity: 0;
+      overflow: hidden;
+      margin-left: 0;
+      white-space: nowrap;
+      font-size: 16px;
+      font-weight: bold;
+      transform: translateX(-10px);
+      transition: max-width 0.35s ease, opacity 0.35s ease, transform 0.35s ease; */
+      opacity: 0;
+      margin-left: 0;
+      white-space: nowrap;
+      font-size: 16px;
+      font-weight: bold;
+      transform: translateX(-10px);
+      transition: opacity 0.35s ease 0.25s, transform 0.35s ease 0.25s, margin-left 0.35s ease 0.25s;      
+    }
+
+    .circle:hover {
+      /* border-radius: 60px;
+      width: auto;
+      z-index: 10;
+      transition: all 0.35s ease 0.2s; */
+      flex-basis: 450px;          /* large enough for ANY label */
+      border-radius: 60px;
+      z-index: 10;
+      transition: flex-basis 0.35s ease 0.2s, border-radius 0.35s ease 0.2s;      
+    }
+
+    .circle:hover .label {
+      /* max-width: 200px;
+      opacity: 1;
+      margin: 0px 5px;
+      transform: translateX(0px); */
+      opacity: 1;
+      margin-left: 12px;
+      transform: translateX(0px);      
+    }
+  </style>
+</head>
+
+<body>
+  <div class="circle-wrap">
+    <div class="circle">
+      <img src="https://placehold.co/30x30" />
+      <span class="label">https://github.com/anksrane</span>
+    </div>
+
+    <div class="circle">
+      <img src="https://placehold.co/30x30" />
+      <span class="label">https://www.linkedin.com/in/ankit-rane</span>
+    </div>
+
+    <div class="circle">
+      <img src="https://placehold.co/30x30" />
+      <span class="label">ankitrane900@gmail.com</span>
+    </div>
+
+    <div class="circle">
+      <img src="https://placehold.co/30x30" />
+      <span class="label">tel:+918082466900</span>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Dynamic Inputs</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+    #input-container, #output{
+        max-width: 700px;
+    }
+    .input-group {
+        display: flex;
+        gap: 5px;
+        margin-bottom: 5px;
+    }
+    input[type="text"] {
+        flex: 1;
+        padding: 5px;
+    }
+    button {
+        padding: 5px 10px;
+    }
+    textarea {
+        width: 100%;
+        height: 100px;
+        margin-top: 10px;
+        padding: 5px;
+    }
+</style>
+</head>
+<body>
+
+<h3>Dynamic Input Fields</h3>
+<div id="input-container">
+    <div class="input-group">
+        <input type="text" placeholder="Enter URL">
+        <button type="button" onclick="removeInput(this)">Remove</button>
+    </div>
+</div>
+
+<button type="button" onclick="addInput()">Add Input</button>
+<br><br>
+<button type="button" onclick="generateString()">Generate</button>
+<button type="button" onclick="resetAll()">Reset</button>
+<br>
+<textarea id="output" readonly></textarea>
+
+<script>
+    function addInput() {
+        const container = document.getElementById('input-container');
+        const div = document.createElement('div');
+        div.className = 'input-group';
+        div.innerHTML = `
+            <input type="text" placeholder="Enter URL">
+            <button type="button" onclick="removeInput(this)">Remove</button>
+        `;
+        container.appendChild(div);
+    }
+
+    function removeInput(button) {
+        const container = document.getElementById('input-container');
+        if (container.children.length > 1) {
+            button.parentElement.remove();
+        } else {
+            alert("At least one input field is required.");
+        }
+    }
+
+    function generateString() {
+        const inputs = document.querySelectorAll('#input-container input[type="text"]');
+        const values = Array.from(inputs)
+            .map(input => input.value.trim())
+            .filter(val => val !== '');
+        document.getElementById('output').value = values.join(', ');
+    }
+
+    function resetAll() {
+        const container = document.getElementById('input-container');
+        container.innerHTML = `
+            <div class="input-group">
+                <input type="text" placeholder="Enter URL">
+                <button type="button" onclick="removeInput(this)">Remove</button>
+            </div>
+        `;
+        document.getElementById('output').value = '';
+    }
+</script>
+
+</body>
+</html>
